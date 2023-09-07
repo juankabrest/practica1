@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: unset;
+    background-color: #FFC436;
+}
+nav{
+    width: 100%;
+    background-color: #337CCF;
+    color: #1450A3;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+nav ul{
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    color: aquamarine;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 25;
+}
+nav ul li a:hover{
+    background-color: aqua;
+    color: crimson;
+}
+nav ul li a:hover{
+    background-color: brown;
+    color: darkgreen;
+}
+header{
+    width: 100%;
+    height: 350px;
+    background-image: url(./imagenes/pexels-jeshootscom-530024.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+section{
+   width: 90%;
+   padding: 20px 15px 0 5px;
+   margin: auto;
+   text-align: justify;
+}
+p{
+    margin: 16px 0;
+    line-height: 150%;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: cyan;
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 50px;
+}
+.titulo_principal{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    background-color: rgba(0, 0, 0, 0.303);
+}
+.titulo_principal h1{
+    font-family: 'Playfair', serif;
+    font-size: 42px;
+    color: #fff;
+    text-shadow: 10px 10px 15px black;
+margin: 20px 0 auto;
+}
+#boton{
+    width: 90px;
+    height: 35px;
+    background-color: #3ead47;
+    border: 2px solid #fff;
+    position: fixed;
+    bottom: 55px;
+    right: 15px;
+    z-index: 200s;
+    transition: all 1s;
+}
+#boton p{
+    color: #fff;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 1px;
+margin-top: 2px;
+text-shadow: 0 0 5px #000;
+}
+#boton:hover{
+    width: 100px;
+    background-color: #fff;
+    border: 2px solid #3ead47;
+}
